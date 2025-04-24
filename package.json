@@ -1,0 +1,37 @@
+{
+   "author": "A New Level Media",
+   "name": "ide-detection-extension",
+   "displayName": "IDE Detection Extension",
+   "description": "A small extension to detect & add the name of your current IDE to the global context",
+   "version": "0.0.1",
+   "engines": {
+      "vscode": "^1.99.0"
+   },
+   "categories": [
+      "Other"
+   ],
+   "activationEvents": [],
+   "main": "./extension.js",
+   "contributes": {
+      "commands": [
+         {
+            "command": "ide-detection-extension.helloWorld",
+            "title": "Hello World"
+         }
+      ]
+   },
+   "scripts": {
+      "lint": "eslint .",
+      "pretest": "yarn run lint",
+      "test": "vscode-test"
+   },
+   "devDependencies": {
+      "@types/mocha": "^10.0.9",
+      "@types/node": "20.x",
+      "@types/vscode": "^1.99.0",
+      "@vscode/test-cli": "^0.0.10",
+      "@vscode/test-electron": "^2.4.1",
+      "eslint": "^9.13.0"
+   },
+   "packageManager": "yarn@4.9.1"
+}
