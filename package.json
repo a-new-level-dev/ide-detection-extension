@@ -13,6 +13,10 @@
    "main": "./extension.js",
    "name": "ide-detection-extension",
    "packageManager": "yarn@4.9.1",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/a-new-level-dev/ide-detection-extension.git"
+   },
    "version": "0.0.1",
    "scripts": {
       "lint": "eslint .",
