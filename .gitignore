@@ -6,6 +6,7 @@
 .settings/
 .snowpack/
 .vscode/
+.vscode-test/
 _build/
 _build/**/*
 bin/
