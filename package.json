@@ -4,14 +4,7 @@
    "categories": [
       "Other"
    ],
-   "contributes": {
-      "commands": [
-         {
-            "command": "ide-detection-extension.helloWorld",
-            "title": "Hello World"
-         }
-      ]
-   },
+   "contributes": {},
    "displayName": "IDE Detection Extension",
    "description": "A small extension to detect & add the name of your current IDE to the global context",
    "engines": {
