@@ -8,7 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - TBD 
 
+## 0.0.2 (05-May-2025) 
+
+- Add `activationEvents` entry 
+- Update `activate` handler logic 
+
 ## 0.0.1 (05-May-2025) 
 
-Initial release 
+- Initial release 
 
