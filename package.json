@@ -5,8 +5,8 @@
       "Other"
    ],
    "contributes": {},
-   "displayName": "I.D.E. Detection Extension",
    "description": "A small extension to detect & add the name of your current IDE to the global context",
+   "displayName": "I.D.E. Detection Extension",
    "engines": {
       "vscode": "^1.99.0"
    },
