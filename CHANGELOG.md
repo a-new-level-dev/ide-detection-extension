@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - TBD 
 
+## 0.0.5 (05-May-2025) 
+
+- Reduce min supported version to `1.97.0` 
+- Update `README` with more details & screenshots 
+
 ## 0.0.4 (05-May-2025) 
 
 - Remove `module` system 
