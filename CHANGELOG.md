@@ -6,4 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+- TBD 
+
+## 0.0.1 (05-May-2025) 
+
+Initial release 
+
