@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - TBD 
 
+## 0.0.4 (05-May-2025) 
+
+- Remove `module` system 
+
 ## 0.0.3 (05-May-2025) 
 
 - Update extension to use `module` syntax 
