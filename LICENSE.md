@@ -1,4 +1,4 @@
-# IDE Detection Extension
+# I.D.E. Detection Extension
 
 Copyright (c) A New Level Media
 
