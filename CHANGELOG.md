@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - TBD 
 
+## 0.0.3 (05-May-2025) 
+
+- Update extension to use `module` syntax 
+- Remove `async/await` from `activate` handler 
+
 ## 0.0.2 (05-May-2025) 
 
 - Add `activationEvents` entry 
