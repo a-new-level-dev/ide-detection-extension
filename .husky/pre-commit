@@ -1,0 +1,10 @@
+#!/bin/sh
+# .husky/pre-commit
+
+EXIT_CODE=0;
+
+pnpm run secrets:check || EXIT_CODE=$?;
+pnpm run lint:commit || EXIT_CODE=$?;
+pnpm run circ:check || EXIT_CODE=$?;
+
+exit $EXIT_CODE;

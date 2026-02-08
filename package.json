@@ -1,5 +1,7 @@
 {
-   "activationEvents": ["onStartupFinished"],
+   "activationEvents": [
+      "onStartupFinished"
+   ],
    "author": "A New Level Media",
    "categories": [
       "Other"
@@ -20,10 +22,22 @@
    },
    "version": "0.0.5",
    "scripts": {
-      "lint": "eslint .",
+      "=========================================[ VSCODE ]=========================================": "",
+      "——————————————————————————————————————————[ LINT ]——————————————————————————————————————————": "",
+      "··········································( combined )": "",
+      "lint": "echo '=====[ Running the `LINT` script... ]====='; eslint .",
+      "lint:commit": "echo 'NOTE :: Run `check-for-leaks && lint-staged` once I figure out their output issues' && exit 0",
+      "——————————————————————————————————————————[ UTILS ]——————————————————————————————————————————": "",
+      "··········································( analysis )": "",
+      "circ:check": "echo '=====[ Running the `CIRC:CHECK` script... ]====='; madge --circular .",
+      "code:review": "echo '=====[ Running the `CODE:REVIEW` script... ]====='; coderabbit review --plain --type committed",
+      "secrets:check": "echo '=====[ Running the `SECRETS:CHECK` script... ]====='; ggshield secret scan path . --recursive --yes",
+      "——————————————————————————————————————————[ TEST ]——————————————————————————————————————————": "",
       "pretest": "pnpm run lint",
-      "test": "vscode-test"
+      "test": "vscode-test",
+      "=============================================================================================": ""
    },
+   "scripts-info": {},
    "devDependencies": {
       "@types/mocha": "^10.0.9",
       "@types/node": "20.x",
@@ -31,6 +45,8 @@
       "@vscode/test-cli": "^0.0.10",
       "@vscode/test-electron": "^2.4.1",
       "eslint": "^9.13.0",
-      "globals": "^16.0.0"
+      "globals": "^16.0.0",
+      "husky": "^9.1.7",
+      "npm-scripts-info": "^0.3.9"
    }
 }

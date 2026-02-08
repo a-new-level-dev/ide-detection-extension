@@ -1,0 +1,8 @@
+#!/bin/sh
+# .husky/pre-push
+
+EXIT_CODE=0;
+
+pnpm run test || EXIT_CODE=$?;
+
+exit $EXIT_CODE;
